@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".two_temp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--        all linear -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="825dp"
+                    android:background="#8BC34A"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:id="@+id/name1_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Zenish Savaliya"
+                                android:textSize="16dp"
+                                android:textColor="#000"
+                                android:fontFamily="@font/poppins_bold"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:id="@+id/pro1_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Android Developer"
+                                android:textSize="13dp"
+                                android:textColor="#000"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/poppins_medium"
+                                android:layout_marginTop="5dp"
+                                android:layout_gravity="center"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#000"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="Contact : "
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                android:textStyle="bold"/>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Address : "
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/add1_txt"
+                                    android:layout_width="130dp"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:text="shri darshan row house dindoli surat"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Mobile Number : "
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:id="@+id/no1_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:text="123456789"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="E - Mail : "
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/email1_txt"
+                                    android:layout_width="130dp"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:text="pramani534@gmail.com"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="LinkedIn : "
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/linkedin1_txt"
+                                    android:layout_width="130dp"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:text="Priyaramani19"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Github Account : "
+                                    android:textColor="@color/black"
+                                    android:textSize="12dp"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/github1_txt"
+                                    android:layout_width="130dp"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/black"
+                                    android:text="Priyaramani19"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_bold"
+                                    android:text="Hobby : "
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:textStyle="bold"/>
+
+                                <TextView
+                                    android:id="@+id/fhobby1_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Reading"
+                                    android:textColor="#000"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:id="@+id/shobby1_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Reading"
+                                    android:textColor="#000"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:id="@+id/thobby1_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Reading"
+                                    android:textColor="#000"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_bold"
+                                    android:text="Skill's : "
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    android:layout_marginTop="15dp"/>
+
+                                <TextView
+                                    android:id="@+id/fskill1_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Reading"
+                                    android:textColor="#000"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:id="@+id/sskill1_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Reading"
+                                    android:textColor="#000"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+                                <TextView
+                                    android:id="@+id/tskill1_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Reading"
+                                    android:textColor="#000"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!--Second layer white -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="Summary : "
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:id="@+id/summary1_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="In publishing and graphic design, Lorem ipsum is"
+                                    android:textColor="#000"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Experience : "
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp"
+                                    android:fontFamily="@font/poppins_bold"/>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/pos1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Android Developer"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:textColor="#000"
+                                        android:textStyle="bold"/>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:id="@+id/startdate1_txt"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="05/2021"
+                                            android:fontFamily="@font/poppins_medium"
+                                            android:textSize="12dp"
+                                            android:textColor="#000"
+                                            android:layout_marginRight="10dp"/>
+
+                                        <TextView
+                                            android:id="@+id/enddate1_txt"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="02/2022"
+                                            android:fontFamily="@font/poppins_medium"
+                                            android:textSize="12dp"
+                                            android:textColor="#000"/>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/comname1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Zomato, Surat"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:textColor="#000"
+                                        android:textStyle="bold"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/about1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="In publishing and graphic design, Lorem ipsum is a"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:textColor="#000"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/spos1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Android Developer"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:textColor="#000"
+                                        android:textStyle="bold"/>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:id="@+id/sstartdate1_txt"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="05/2021"
+                                            android:fontFamily="@font/poppins_medium"
+                                            android:textSize="12dp"
+                                            android:textColor="#000"
+                                            android:layout_marginRight="10dp"/>
+
+                                        <TextView
+                                            android:id="@+id/senddate1_txt"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="02/2022"
+                                            android:fontFamily="@font/poppins_medium"
+                                            android:textSize="12dp"
+                                            android:textColor="#000"/>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/scomname1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Zomato, Surat"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:textColor="#000"
+                                        android:textStyle="bold"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/sabout1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="In publishing and graphic design, Lorem ipsum is a"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:textColor="#000"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="EDUCATIONAL INFO : "
+                                android:textColor="@color/black"
+                                android:textSize="15dp"
+                                android:layout_marginTop="15dp"
+                                android:textStyle="bold"/>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginTop="10dp">
+
+                                <TextView
+                                    android:id="@+id/fyear1_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Year : "
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/fdegree1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="S.S.C. - "
+                                        android:textColor="@color/black"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="14dp"
+                                        android:textStyle="bold"/>
+
+                                    <TextView
+                                        android:id="@+id/fclg1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:text="Originality communication research"
+                                        android:textColor="@color/black"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:layout_marginLeft="5dp">
+
+                                    </TextView>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginTop="10dp">
+
+                                <TextView
+                                    android:id="@+id/syear1_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Year : "
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/sdegree1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="H.S.C. - "
+                                        android:textColor="@color/black"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="14dp"
+                                        android:textStyle="bold"/>
+
+                                    <TextView
+                                        android:id="@+id/sclg1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:text="Originality communication research"
+                                        android:textColor="@color/black"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:layout_marginLeft="5dp"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tyear1_txt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Year : "
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:textSize="12dp"/>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tdegree1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="B.C.A. - "
+                                        android:textColor="@color/black"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="14dp"
+                                        android:textStyle="bold"/>
+
+                                    <TextView
+                                        android:id="@+id/tclg1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:text="Originality communication research"
+                                        android:textColor="@color/black"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:layout_marginLeft="5dp"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:paddingLeft="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Language's Known"
+                                    android:fontFamily="@font/poppins_bold"
+                                    android:textColor="#000"/>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/lang1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Gujarati"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:textColor="#000"/>
+
+                                    <TextView
+                                        android:id="@+id/guj1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="50"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:layout_marginLeft="7dp"
+                                        android:textColor="#000"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="%"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:textColor="#000"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/lang2_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Hindi"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:textColor="#000"/>
+
+                                    <TextView
+                                        android:id="@+id/hindi1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="50"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:textColor="#000"
+                                        android:layout_marginLeft="25dp"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="%"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:textColor="#000"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/lang3_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="English"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:textColor="#000"/>
+
+                                    <TextView
+                                        android:id="@+id/eng1_txt"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="50"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:textColor="#000"
+                                        android:layout_marginLeft="13dp"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="%"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:textSize="12dp"
+                                        android:textColor="#000"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

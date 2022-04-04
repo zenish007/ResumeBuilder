@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".one_temp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="125dp"
+            android:background="#9C27B0"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/name1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zenish Savaliaya"
+                android:textSize="21dp"
+                android:textColor="#fff"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/pro1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Developer"
+                android:textSize="13dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="125dp"
+            android:background="#9C27B0"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address : "
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="12dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/add1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shri Darshan Row House Dindoli"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="10dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone : "
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="12dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/no1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0123456789"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="10dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email : "
+                android:fontFamily="@font/poppins_bold"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/email1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pradyumangodhani007@gmail.com"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="10dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Summary"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/summary1_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12dp"
+            android:text="In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+            android:textColor="#000"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skills"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/fskill1_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Problem Solving"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12dp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/sskill1_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Problem Solving"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12dp"
+            android:textColor="#000"
+            android:layout_marginTop="1dp"/>
+
+        <TextView
+            android:id="@+id/tskill1_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Problem Solving"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12dp"
+            android:textColor="#000"
+            android:layout_marginTop="1dp"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experiance"
+            android:fontFamily="@font/poppins_bold"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/pos1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Developer"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/startdate1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="05/2021"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/enddate1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02/2022"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/comname1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zomato, Surat"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/about1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/spos1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Developer"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/sstartdate1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="05/2021"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/senddate1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02/2022"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/scomname1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zomato, Surat"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/sabout1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Education"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="#000"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/fdegree1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B.C.A."
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/fyear1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2024"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/fclg1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bhagavan Mahavir University, Surat"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/sdegree1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B.C.A."
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/syear1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2024"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/sclg1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bhagavan Mahavir University, Surat"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/tdegree1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B.C.A."
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tyear1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2024"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/tclg1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bhagavan Mahavir University, Surat"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Language's Known"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="#000"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"/>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:id="@+id/lang1_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Gujarati"
+                   android:fontFamily="@font/poppins_medium"
+                   android:textSize="12dp"
+                   android:layout_marginTop="1dp"
+                   android:textColor="#000"/>
+
+               <TextView
+                   android:id="@+id/guj1_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="50"
+                   android:fontFamily="@font/poppins_medium"
+                   android:textSize="12dp"
+                   android:layout_marginLeft="10dp"
+                   android:textColor="#000"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="%"
+                   android:fontFamily="@font/poppins_medium"
+                   android:textSize="12dp"
+                   android:textColor="#000"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:id="@+id/lang2_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Hindi"
+                   android:fontFamily="@font/poppins_medium"
+                   android:textSize="12dp"
+                   android:textColor="#000"
+                   android:layout_marginTop="1dp"/>
+
+               <TextView
+                   android:id="@+id/hindi1_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="50"
+                   android:fontFamily="@font/poppins_medium"
+                   android:textSize="12dp"
+                   android:textColor="#000"
+                   android:layout_marginLeft="26dp"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="%"
+                   android:fontFamily="@font/poppins_medium"
+                   android:textSize="12dp"
+                   android:textColor="#000"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:id="@+id/lang3_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="English"
+                   android:fontFamily="@font/poppins_medium"
+                   android:textSize="12dp"
+                   android:textColor="#000"
+                   android:layout_marginTop="1dp"/>
+
+               <TextView
+                   android:id="@+id/eng1_txt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="50"
+                   android:fontFamily="@font/poppins_medium"
+                   android:textSize="12dp"
+                   android:textColor="#000"
+                   android:layout_marginLeft="13dp"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="%"
+                   android:fontFamily="@font/poppins_medium"
+                   android:textSize="12dp"
+                   android:textColor="#000"/>
+
+           </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hobby"
+                android:fontFamily="@font/poppins_bold"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/fhobby1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Listening Music"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:layout_marginTop="1dp"/>
+
+            <TextView
+                android:id="@+id/shobby1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Games"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:layout_marginTop="1dp"/>
+
+            <TextView
+                android:id="@+id/thobby1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Watching Series"
+                android:textColor="#000"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:layout_marginTop="1dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other Details"
+                android:fontFamily="@font/poppins_bold"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LinkedIn Profile Link"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="1dp"/>
+
+            <TextView
+                android:id="@+id/linkedin1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://www.linkedin.com/in/pradyuman-godhani-615745224"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:layout_marginTop="1dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Github Profile Link"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="1dp"/>
+
+
+            <TextView
+                android:id="@+id/github1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://github.com/Pradyuman001"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:layout_marginTop="1dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#03A9F4"
+            android:layout_marginTop="20dp">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
